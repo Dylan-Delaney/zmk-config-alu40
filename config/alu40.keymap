@@ -19,10 +19,10 @@
             // | PLAY  | LCTL | LALT | LGUI | LOWR |     SPACE    |  RAIS | LARW | UARW | DARW  |  RARW |
 
             bindings = <
-   &kp TAB             &kp Q         &kp W    &kp F  &kp P          &kp B      &kp J  &kp L      &kp U    &kp Y  &kp SEMICOLON   &kp BSPC
-&sys_reset             &kp A         &kp R    &kp S  &kp T          &kp G      &kp M  &kp N      &kp E    &kp I          &kp O    &kp RET
- &kp LSHFT             &kp Z         &kp X    &kp C  &kp D          &kp V      &kp K  &kp H  &kp COMMA  &kp DOT       &kp FSLH    &kp SQT
-&sys_reset  &sk LEFT_CONTROL  &kp LEFT_ALT  &kp ESC  &mo 1  &kp BACKSPACE  &kp SPACE  &mo 2   &kp LEFT   &kp UP       &kp DOWN  &kp RIGHT
+   &kp TAB             &kp Q         &kp W  &kp F  &kp P          &kp B      &kp J  &kp L      &kp U    &kp Y  &kp SEMICOLON   &kp BSPC
+&sys_reset             &kp A         &kp R  &kp S  &kp T          &kp G      &kp M  &kp N      &kp E    &kp I          &kp O    &kp RET
+ &kp LSHFT             &kp Z         &kp X  &kp C  &kp D          &kp V      &kp K  &kp H  &kp COMMA  &kp DOT       &kp FSLH    &kp SQT
+&sys_reset  &sk LEFT_CONTROL  &kp LEFT_ALT  &kp Q  &mo 1  &kp BACKSPACE  &kp SPACE  &mo 2   &kp LEFT   &kp UP       &kp DOWN  &kp RIGHT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
