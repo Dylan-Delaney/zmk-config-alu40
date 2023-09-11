@@ -15,7 +15,7 @@
             compatible = "zmk,behavior-macro";
             label = "SEND_TO_SPACE_1";
             #binding-cells = <0>;
-            bindings = <&kp LA(LS(NUMBER_1))>;
+            bindings = <&kp LS(LA(NUMBER_1))>;
         };
         Send_to_Space_2: Send_to_Space_2 {
             compatible = "zmk,behavior-macro";
@@ -27,13 +27,31 @@
             compatible = "zmk,behavior-macro";
             label = "SEND_TO_SPACE_3";
             #binding-cells = <0>;
-            bindings = <&kp LA(LS(NUMBER_3))>;
+            bindings = <&kp LS(LA(NUMBER_3))>;
         };
         Send_to_Space_4: Send_to_Space_4 {
             compatible = "zmk,behavior-macro";
             label = "SEND_TO_SPACE_4";
             #binding-cells = <0>;
             bindings = <&kp LS(LA(NUMBER_4))>;
+        };
+        Send_to_Space_5: Send_to_Space_5 {
+            compatible = "zmk,behavior-macro";
+            label = "SEND_TO_SPACE_5";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LC(N5))>;
+        };
+        Send_to_Space_6: Send_to_Space_6 {
+            compatible = "zmk,behavior-macro";
+            label = "SEND_TO_SPACE_6";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LC(NUMBER_6))>;
+        };
+        Send_to_Space_7: Send_to_Space_7 {
+            compatible = "zmk,behavior-macro";
+            label = "SEND_TO_SPACE_7";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LC(N7))>;
         };
     };
 
@@ -81,10 +99,10 @@
 
         Macros {
             bindings = <
-&trans  &Send_to_Space_1  &Send_to_Space_2  &Send_to_Space_3  &Send_to_Space_4  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans            &trans            &trans            &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans            &trans            &trans            &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans            &trans            &trans            &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &Send_to_Space_1  &Send_to_Space_2  &Send_to_Space_3  &Send_to_Space_4  &Send_to_Space_5  &Send_to_Space_6  &Send_to_Space_7  &trans  &trans  &trans  &trans
+&trans  &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans  &trans  &trans  &trans
+&trans  &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans  &trans  &trans  &trans
+&trans  &trans            &trans            &trans            &trans            &trans            &trans            &trans            &trans  &trans  &trans  &trans
             >;
         };
 
